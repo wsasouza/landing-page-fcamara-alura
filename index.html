@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <title>FCamara | Agendamento</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <a href="#home" class="logo">
+      <img src="/assets/logo-fcamara.png" alt="logo">
+    </a>
+    <div id="toggle"></div>
+    <div id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Agendamento</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="home">Home</section>
+
+  <section id="faq" class="grid-section faq js-scroll">
+   
+  </section>
+
+  <section id="contact">
+    <div class="box">
+      <!-- Form -->
+      <div class="contact form">
+        <h3>Agendamento:
+        </h3>
+        <form>
+          <div class="formBox">
+            <div class="row50">
+              <div class="inputBox">
+                <span>Nome</span>
+                <input type="text" placeholder="José Alvares da Silva">
+              </div>
+              <div class="inputBox">
+                <span>E-mail</span>
+                <input type="email" placeholder="jose@email.com">
+              </div>
+            </div>
+
+            <div class="row50">
+              <div class="inputBox">
+                <span>Estação de trabalho</span>
+                <select name="type" id="terminal">
+                  <option value="none" selected disabled hidden>Selecione</option>
+                  <option value="1">Mesa 01</option>
+                  <option value="2">Mesa 02</option>
+                  <option value="3">Mesa 03</option>
+                  <option value="4">Mesa 04</option>
+                  <option value="5">Mesa 05</option>
+                  <option value="6">Mesa 06</option>
+                  <option value="7">Mesa 07</option>
+                  <option value="8">Mesa 08</option>
+                  <option value="9">Mesa 09</option>
+                  <option value="10">Mesa 10</option>
+                </select>
+              </div>
+              <div class="inputBox">
+                <span>Data</span>
+                <input type="date">
+              </div>
+            </div>
+
+            <div class="row100">
+              <div class="inputBox">
+                <span>Local</span>
+                <select name="type" id="terminal">
+                  <option value="none" selected disabled hidden>Selecione</option>
+                  <option value="1">Matriz - São Paulo-SP</option>
+                  <option value="2">Filial - Santos-SP</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row100">
+              <div class="inputBox">
+                <input type="submit" value="Agendar">
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+      <!-- Info box -->
+      <div class="contact info">
+        <h3>Informações de Contato</h3>
+        <div class="infoBox">
+          <div>
+            <span>
+              <ion-icon name="location-outline"></ion-icon>
+            </span>
+            <a href="https://goo.gl/maps/1hFyeryqqT98gHFt6" target="_blank">
+              <p>MATRIZ: Rua Bela Cintra, 986<br>
+                - 2º andar, Consolação<br>
+                São Paulo-SP
+              </p>
+            </a>
+          </div>
+          <div>
+            <span>
+              <ion-icon name="location-outline"></ion-icon>
+            </span>
+            <a href="https://goo.gl/maps/6ixy6o3WMphnWkwP6" target="_blank">
+              <p>FILIAL: Praça dos expedicionarios, 19<br>
+                - 2º andar, Gonzaga<br>
+                Santos-SP<br>
+              </p>
+            </a>
+          </div>
+          <div>
+            <span>
+              <ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <a href="mailto:contato@fcamara.com.br">
+              contato@fcamara.com.br
+            </a>
+          </div>
+          <div>
+            <span>
+              <ion-icon name="call-outline"></ion-icon>
+            </span>
+            <a href="tel:+551131581047">(11)3158-1047</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="sci">
+      <li><a href="https://pt-br.facebook.com/grupofcamara/" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li><a href="https://www.linkedin.com/company/fcamara-consulting-&amp;-training/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li><a href="https://www.instagram.com/grupo.fcamara/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+      <li><a href="https://www.youtube.com/channel/UCHsQ04xha1YKv48dSzQFlpw" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a></li>
+    </ul>
+    <span>#SangueLaranja</span>
+    <p>©2021 wsasouza | All Rights Reserved</p>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
